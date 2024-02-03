@@ -9,7 +9,7 @@ Standards-Version: 4.6.0.1
 Rules-Requires-Root: no
 Build-Depends: debhelper (>= 12), debhelper-compat (= 12), libglib2.0-dev,
                gettext, libbluetooth-dev (>= 5.0), python3-dev (>= 3.6),
-               cython3, python-gi-dev (>= 3.27.2), dh-python,
+               cython3-legacy|cython3, python-gi-dev (>= 3.27.2), dh-python,
                libpolkit-agent-1-dev
 
 Package: blueman
